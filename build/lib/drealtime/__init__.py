@@ -9,7 +9,7 @@ try:
     from django.utils import json as json
 
 except ImportError:
-    import simplejson as json
+    import json as json
     
 except:
     import json
