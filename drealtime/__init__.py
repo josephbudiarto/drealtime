@@ -1,6 +1,6 @@
 import http.client as httplib
 import socket
-import json
+from django.utils import json as json
 from django.conf import settings
 # from django.utils import simplejson as json
 
